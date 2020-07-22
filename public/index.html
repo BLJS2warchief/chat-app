@@ -1,0 +1,43 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="style.css">
+		<title>Chat app</title>
+	</head>
+	<body>
+		<div id = "div_contain1">
+			<div id = "joinDiv">
+				<div id = "divGreeting">
+					<input type="text" id="txtUserName" placeholder = "Enter name">
+				</div>
+				<button id="btnJoin">Join</button>
+			</div>
+			<div id = "divMembers">
+			</div>
+		</div>
+		<div id = "div_contain2">
+			<div id = "roomTabsDiv">
+				<button id = "tabMain" class = "tabBtn">
+					main
+				</button>
+			</div>
+			<div id = "divAllChats">
+				<div class = "divChat">
+				</div>
+			</div>
+			<div id = "divMessageSend">
+				<div id="divMessageTxt">
+					<input type="text" id="txtMessage" disabled="true" placeholder = "Enter message">
+				</div>
+				<div id="divMessageBtn">
+					<button id="btnSend" disabled="true">Send</button>
+				</div>
+			</div>
+		</div>
+		<script src="/jquery-3.4.1.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="/index.js"></script>
+	</body>
+</html>

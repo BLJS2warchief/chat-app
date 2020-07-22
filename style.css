@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+}
+
+input{
+	border-radius: 25px;
+	font-size: 20px;
+}
+
+#div_contain1{
+	float: left;
+	height: 100%;
+	width: 20%;
+}
+
+#joinDiv{
+	float: left;
+	height: 10%;
+	width: 100%;
+}
+
+#joinNameTxt{
+	float: left;
+	height: 100%;
+	width: 80%;
+}
+
+#joinButton{
+	float: left;
+	height: 100%;
+	width: 20%;
+}
+
+#membersDiv{
+	background-color: blue;
+	float: left;
+	height: 90%;
+	width: 100%;
+}
+
+#div_contain2{
+	float: left;
+	height: 100%;
+	width: 80%;
+}
+
+#messageDiv{
+	background-color: aqua;
+	float: left;
+	height: 90%;
+	width: 100%;
+}
+
+#messageSendDiv{
+	float: left;
+	height: 10%;
+	width: 100%;
+}
+
+#messageTxtDiv{
+	float: left;
+	height: 100%;
+	width: 90%;
+}
+
+#messageTxt{
+	height: 100%;
+	width: 100%;
+}
+
+#messageBtnDiv{
+	float: left;
+	height: 100%;
+	width: 10%;
+}
+
+#messageBtn{
+	height: 100%;
+	width: 100%;
+}

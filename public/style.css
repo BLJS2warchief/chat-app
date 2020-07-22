@@ -1,0 +1,230 @@
+body{
+	margin: 0;
+	color: black;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* .scroller {
+	scrollbar-color: #7f7f7f white;
+	scrollbar-width: thin;
+} */
+
+input{
+	border-radius: 25px;
+	font-size: 14px;
+}
+
+#div_contain1{
+	/* display: inherit; */
+	float: left;
+	height: 100%;
+	width: 20%;
+}
+
+#joinDiv{
+	float: left;
+	height: 1.7em;
+	width: 100%;
+	font-size: 1em;
+}
+
+#divGreeting{
+	text-align: center;
+	float: left;
+	height: 100%;
+	width: 70%;
+}
+
+#txtUserName{
+	float: left;
+	height: 100%;
+	width: 100%;
+}
+
+#btnJoin{
+	padding: 0;
+	float: left;
+	height: 100%;
+	width: 30%;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+#joinBtn:hover{
+	background-color: #ddd;
+}
+
+#btnLeave{
+	padding: 0;
+	float: left;
+	height: 100%;
+	width: 30%;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+#leaveBtn:hover{
+	background-color: #ddd;
+}
+
+#divMembers{
+	background-color: rgb(207, 207, 207);
+	float: left;
+	height: calc(100% - 1.7em);
+	width: 100%;
+	overflow-y: scroll;
+}
+
+.roomBtn{
+	float: left;
+	height: 1.7em;
+	color: black;
+	cursor: pointer;
+	transition: 0.3s;
+	background: transparent;
+	border: none;
+	width: 100%;
+	font-size: 14px;
+}
+
+.roomBtn:hover{
+	background-color: #ddd;
+}
+
+/* #mainTabBtn{
+	height: 7%;
+} */
+
+#div_contain2{
+	float: left;
+	height: 100%;
+	width: 80%;
+}
+
+#roomTabsDiv{
+	/* overflow-x: scroll; */
+	font-size: 20px;
+	float: left;
+	width: 100%;
+	height: 1.4em;
+}
+
+.tabBtn{
+	border: none;
+	float: left;
+	cursor: pointer;
+	transition: 0.3s;
+	width: 10%;
+	height: 100%;
+}
+
+/* .tabBtn:hover{
+	background-color: #ddd;
+} */
+
+/* .unreadDiv{
+	float: right;
+	height: 100%;
+	width: 25%;
+	background-color: brown;
+} */
+
+#divAllChats{
+	height: calc(100% - 2em - 1.4em);
+}
+
+.messageDiv{
+	float: left;
+	height: 100%;
+	width: 100%;
+	overflow-y: scroll;
+}
+
+#divNewUserMsg{
+	/* background-color: rgb(218, 255, 170); */
+	float: left;
+	height: 1.7em;
+	width: 100%;
+	/* text-align: center; */
+	font-size: 14px;
+	/* margin-bottom: 8px;
+	margin-top: 8px; */
+}
+
+#newMessage{
+	/* background-color: rgb(240, 240, 240); */
+	float: left;
+	height: 1.7em;
+	width: 100%; 
+	font-size: 14px;
+	transition: 0.8s;
+	/* margin-top: 3px;
+	margin-bottom: 3px; */
+	/* padding-left: 10px; */
+}
+
+#newMessageTime{
+	float: right;
+	height: 100%;
+	width: 20%;
+	display: none;
+	transition: 0.8s;
+	/* background-color: blueviolet; */
+}
+
+#newMessage:hover #newMessageTime{
+	display: block;
+	transition: 0.8s;
+	/* background-color: rgb(0, 0, 0); */
+}
+
+/* #selfMessage{
+	background-color: rgb(255, 253, 139);
+	float: left;
+	height: 7%;
+	width: 100%; 
+	text-align: right;	 
+	font-size: 25px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-right: 10px; 
+} */
+
+#divMessageSend{
+	float: left;
+	height: 2em;
+	width: 80%;
+	position: fixed;
+	bottom: 0;
+}
+
+#divMessageTxt{
+	float: left;
+	height: 100%;
+	width: 90%;
+}
+
+#txtMessage{
+	height: 100%;
+	width: 100%;
+}
+
+#divMessageBtn{
+	float: left;
+	height: 100%;
+	width: 10%;
+}
+
+#btnSend{
+	height: 100%;
+	width: 100%;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+#btnSend:hover{
+	background-color: #ddd;
+}
